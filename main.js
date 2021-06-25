@@ -128,7 +128,7 @@ function moveEnemy() {
     ) {
       setting.start = false;
       start.classList.remove("hide");
-      start.style.top = score.offsetHeight;
+      score.style.top = start.offsetHeight;
     }
 
     item.y += setting.speed / 2;
